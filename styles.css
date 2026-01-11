@@ -68,23 +68,22 @@ nav ul
     font-size: 1.3rem;
 }
 
-#inicio
+#sobremi
 {
     color: white;
-    text-shadow: 0.2rem 0.2rem 0rem black;
     background-image: url("img/PortadaFondo.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     z-index: 99;
 }
-#inicio h1 {
-    font-size: xx-large;
-    
+#sobremi h1, #sobremi h2
+{
+    text-shadow: 0.2rem 0.2rem 0rem black;
 }
-#inicio p {
-    font-size: x-large;
-    
+#sobremi p
+{
+    text-shadow: 0.1rem 0.1rem 0rem black;
 }
 
 #sobremi ul
@@ -97,13 +96,23 @@ nav ul
     
 }
 
-#sobremi img 
-{
-    border: 0.2rem solid white;
-    border-radius: 25%;
+#sobremi .foto-wrapper {
+    border-radius: 100%;
+    padding: 0.4rem;
+    background: linear-gradient(135deg, #00FF24, #FF00CC);
+    display: inline-block;
     width: 16rem;
     height: 16rem;
+    
 }
+
+#sobremi .foto-wrapper img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+}
+
 body 
 {
     font-family: "Inter", sans-serif;
