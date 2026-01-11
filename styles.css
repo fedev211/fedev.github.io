@@ -1,0 +1,353 @@
+nav 
+{
+    background-color:dimgray;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    border: 0.1875rem solid white;
+    border-radius: 0.55rem;
+    
+}
+nav a
+{
+    color: white;
+    text-decoration: none;
+}
+nav a:hover
+{
+    color: #00FF24;
+}
+
+nav img
+{
+    width: 9.375rem;
+    height: 2.9375rem;
+    
+    
+}
+
+nav ul 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+    padding: 0;
+    list-style: none;
+}
+
+
+#botonTema
+{
+    background-color: rgb(176, 176, 176);
+    border: 0.125rem solid white;
+    border-radius: 0.625rem;
+    cursor: pointer;
+    font-size: 1rem;
+}
+#botonTema:hover
+{
+    border-color: #00FF24;
+}
+
+#botonVolverArriba
+{
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    z-index: 1000;
+    padding: 1rem 1rem;
+    background-color: #FF00CC;
+    color: white;
+    border: 0.125rem solid white;
+    border-radius: 1rem;
+    cursor: pointer;
+    display: none;
+    font-size: 1.3rem;
+}
+
+#inicio
+{
+    color: white;
+    text-shadow: 0.2rem 0.2rem 0rem black;
+    background-image: url("img/PortadaFondo.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 99;
+}
+#inicio h1 {
+    font-size: xx-large;
+    
+}
+#inicio p {
+    font-size: x-large;
+    
+}
+
+#sobremi ul
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    
+}
+
+#sobremi img 
+{
+    border: 0.2rem solid white;
+    border-radius: 25%;
+    width: 16rem;
+    height: 16rem;
+}
+body 
+{
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    background-color: rgb(33, 33, 33);
+    color: white;
+    margin: 0;
+    padding: 0.3rem;
+    
+}
+section, footer
+{
+    border: 0.1875rem solid white;
+    border-radius: 0.625rem;
+    
+    
+}
+
+#proyectos-contenedor 
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.625rem;
+}
+
+#proyectos-contenedor article 
+{
+    width: 25rem;
+    max-width: 100%;
+    height: 34.3rem;
+    max-height: 100%;
+    margin: 0.625rem;
+    border: 0.1875rem dashed white;
+    border-radius: 0.625rem;
+    padding: 0.3rem;
+    background-color: rgb(54, 54, 54);
+    cursor: pointer;
+}
+
+#proyectos-contenedor article:hover
+{
+    background-color: rgb(64, 64, 64);
+    border-color: #00FF24;
+}
+
+#proyectos-contenedor article h3
+{
+    font-size: x-large;
+}
+
+#proyectos-contenedor article img
+{
+    width: 95%;
+    height: 50%;
+    border-radius: 5%;
+    border: 0.1875rem dashed white;
+    object-fit: cover;
+    
+    
+}
+#proyectos-contenedor article img:hover
+{
+    border-color: #00FF24;
+}
+
+.formulario 
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.entradaForm {
+    background-color: rgb(54, 54, 54);
+    color: white;
+    border: 0.2rem solid white;
+    border-radius: 0.625rem;
+    padding: 0.625rem;
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+.entradaForm:focus {
+    outline: none;
+    border-color: #00FF24;
+}
+
+#botonSubirForm {
+    background-color: rgb(54, 54, 54);
+    color: white;
+    border: 0.125rem solid white;
+    border-radius: 0.625rem;
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 0.625rem 1.25rem;
+    font-weight: bold;
+}
+
+#botonSubirForm:hover {
+    
+    border-color: #00FF24;
+}
+
+#redesSociales 
+{
+    display: flex;
+    justify-content: center;
+    gap: 1.25rem;
+    padding: 0;
+    list-style: none;
+}
+
+#redesSociales img
+{
+    width: 5rem;
+    height: 5rem;
+}
+
+#referencias-contenedor
+{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0.625rem;
+}
+
+#referencias-contenedor blockquote {
+    width: 25rem;
+    max-width: 100%;
+    height: 9.375rem;
+    max-height: 100%;
+    margin: 0.625rem;
+    border: 0.1875rem dashed white;
+    border-radius: 0.625rem;
+    padding: 0.3125rem;
+    background-color: rgb(54, 54, 54);
+    
+}
+
+
+/* ================== TEMA CLARO ================== */
+body.light-theme 
+{
+    background-color: rgb(240, 240, 240);
+    border-color: gray;
+    color: black;
+}
+
+
+body.light-theme nav 
+{
+    background-color: lightgray;
+    border-color: gray;
+}
+
+body.light-theme nav a 
+{
+    color: black;
+}
+
+body.light-theme nav a:hover 
+{
+    color: dodgerblue;
+}
+
+body.light-theme #sobremi img 
+{
+    border-color: gray;
+    
+}
+
+body.light-theme #botonTema 
+{
+    background-color: rgb(70, 70, 70);
+    border-color: gray;
+    color: white;
+}
+
+body.light-theme #botonTema:hover 
+{
+    border-color: dodgerblue;
+}
+
+body.light-theme section, body.light-theme footer 
+{
+    border-color: gray;
+}
+
+body.light-theme #proyectos-contenedor article 
+{
+    background-color: rgb(220, 220, 220);
+    border-color: gray;
+}
+
+body.light-theme #proyectos-contenedor article:hover 
+{
+    background-color: rgb(210, 210, 210);
+    border-color: dodgerblue;
+}
+
+body.light-theme #proyectos-contenedor article img 
+{
+    border-color: gray;
+}
+
+body.light-theme #proyectos-contenedor article img:hover 
+{
+    border-color: dodgerblue;
+}
+
+body.light-theme #referencias-contenedor blockquote 
+{
+    background-color: rgb(220, 220, 220);
+    border-color: gray;
+}
+
+body.light-theme #botonVolverArriba 
+{
+    background-color: #c00;
+    border-color: gray;
+}
+
+body.light-theme .entradaForm {
+    background-color: rgb(220, 220, 220);
+    color: black;
+    border-color: gray;
+}
+
+body.light-theme .entradaForm:focus {
+    border-color: dodgerblue;
+}
+
+body.light-theme #botonSubirForm {
+    background-color: rgb(70, 70, 70);
+    border-color: gray;
+}
+
+body.light-theme #botonSubirForm:hover {
+    background-color: rgb(90, 90, 90);
+    border-color: dodgerblue;
+}

@@ -1,0 +1,258 @@
+<!DOCTYPE html> <!--Acá uso HTML5-->
+<html lang="es"> <!--Acá defino el idioma en español-->
+    <head> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+        <script src="script.js"></script>
+        <title>Portfolio - Federico Salinas</title>
+    </head>
+
+    <body>  
+        <header>
+            <!--Acá va la cabecera, normalmente el menú de navegación-->
+            <nav>
+                <ul>
+                    <li id="logoFedev"><img src="img/logoFedev.png" alt="logoFedev"></li>
+                    <li><a href="#inicio">INICIO</a></li>
+                    <li><a href="#sobremi">SOBRE MÍ</a></li>
+                    <li><a href="#proyectos">PROYECTOS</a></li>
+                    <li><a href="#contacto">CONTACTO</a></li>
+                    <!--<li><a href="#referencias">REFERENCIAS</a></li>-->
+                    <li><button id="botonTema">💡</button></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main>  <!--Acá vamos a arrancar poniendo las secciones con su ID para identificarlos-->
+            <button id="botonVolverArriba">↑</button>
+            <!--Esta es la sección de inicio, indico rol profesional-->
+            <section id="inicio">
+                <br><br><br><br>
+                <p>Bienvenido/a al portafolio de:</p>
+                <h1>Federico Salinas</h1>
+                <p>Game Developer</p>
+                <br><br>
+            </section>
+            <!--Esta es la sección de inicio, doy breve presentación.-->
+            <section id="sobremi">
+                <h1>SOBRE MÍ</h1> 
+                <img src="img/FotoPerfil.jpeg" alt="Foto de perfil" width="512" height="512" id="fotoPerfil"> 
+                <p>Soy Federico Salinas, un desarrollador de videojuegos argentino especializado en Unity y Godot para crear exitosos juegos en 2D y 3D para PC y dispositivos móviles de diversos géneros.</p>
+                <p>He desarrollado y publicado más de 10 juegos multiplataforma, que han alcanzado más de 135 000 descargas en PC y dispositivos móviles y han tenido un gran éxito en YouTube y Twitch.</p>
+                <p>Tengo una amplia experiencia en la optimización del rendimiento para garantizar la compatibilidad entre plataformas, así como en herramientas como:</p>
+                <ul>
+                    <li>Git</li>
+                    <li>Plastic SCM</li>
+                    <li>JSON</li>
+                    <li>DOTween</li>
+                    <li>Cinemachine</li>
+                    <li>Unity Services</li>
+                    <li>Google Play Services</li>
+                    <li>Física de juegos</li>
+                    <li>Sistemas de animación</li>
+                    <li>Integración de UI/UX</li>
+                </ul>
+                <p>Mi nivel de inglés es B2, lo que me permite comunicarme de forma eficaz en entornos de desarrollo internacionales.</p>
+                <p>Soy una persona proactiva y comprometida, con un fuerte enfoque en el trabajo en equipo y siempre orientada a añadir valor y calidad a cada proyecto.</p>
+            </section>
+            <!--Esta es la sección de proyectos, mostrar los trabajos-->
+            <section id="proyectos">  
+                <h1>PROYECTOS</h1>
+                <div id="proyectos-contenedor">
+                    <article class="proyecto">
+                        <h3>THEY SHALL DIE</h3>
+                        <p class="textoProyecto">31 de agosto de 2025</p>
+                        <p class="textoProyecto">Un desafiante FPS retro en el cual defiendes tu posición mientras el caos escala.</p>
+                        <a href="https://fedev21.itch.io/they-shall-die" target="_blank">
+                            <img src="img/Proyecto12.png" alt="THEY SHALL DIE">
+                        </a>
+                        <p>Disponible en PC y Móvil</p>
+                        <p>Hecho en Unity</p>
+                    </article>
+                    <article class="proyecto">
+                        <h3>MILO.exe</h3>
+                        <p class="textoProyecto">25 de marzo de 2024</p>
+                        <p class="textoProyecto">El juego 3D de horror retro ganador de la KingSammelot Developer Competition.</p>
+                        <a href="https://fedev21.itch.io/miloexe" target="_blank">
+                            <img src="img/Proyecto11GIF.gif" alt="MILO.exe">
+                        </a>
+                        <p>Disponible en PC y Móvil</p>
+                        <p>Hecho en Unity</p>
+                    </article>
+                    <article class="proyecto">
+                        <h3>THE VHS PARADISE</h3>
+                        <p class="textoProyecto">27 de diciembre de 2023</p>
+                        <p class="textoProyecto">Juego de horror retro 3D con finales. Atiende una tienda de VHS y lidia con clientes raros y ladrones.</p>
+                        <a href="https://fedev21.itch.io/the-vhs-paradise" target="_blank">
+                            <img src="img/Proyecto10GIF.gif" alt="THE VHS PARADISE">
+                        </a>
+                        <p>Disponible en PC y Móvil</p>
+                        <p>Hecho en Unity</p>
+                    </article>
+                    <article class="proyecto">
+                        <h3>The Maze</h3>
+                        <p class="textoProyecto">27 de diciembre de 2022</p>
+                        <p class="textoProyecto">Juego de horror retro 3D. Escapa del lugar usando objetos a tu favor. Y recuerda, no estas solo.</p>
+                        <a href="https://fedev21.itch.io/the-maze" target="_blank">
+                            <img src="img/Proyecto9.png" alt="The Maze">
+                        </a>
+                        <p>Disponible en PC y Móvil</p>
+                        <p>Hecho en Unity</p>
+                    </article>
+                    <article class="proyecto">
+                        <h3>void</h3>
+                        <p class="textoProyecto">18 de julio de 2022</p>
+                        <p class="textoProyecto">Bullet-Hell arcade 2D con distintos tipos de enemigos y power-ups.</p>
+                        <a href="https://fedev21.itch.io/void" target="_blank">
+                            <img src="img/Proyecto8.png" alt="void">
+                        </a>
+                        <p>Disponible en PC y Móvil</p>
+                        <p>Hecho en Unity</p>
+                    </article>
+                    <article class="proyecto">
+                        <h3>Expedient L</h3>
+                        <p class="textoProyecto">21 de agosto de 2022</p>
+                        <p class="textoProyecto">Juego de horror 3D basado en el creepypasta de los Backrooms.</p>
+                        <a href="https://fedev21.itch.io/expedient-l" target="_blank">
+                            <img src="img/Proyecto7.png" alt="Expedient L">
+                        </a>
+                        <p>Disponible en PC</p>
+                        <p>Hecho en Unity</p>
+                    </article>
+                    <article class="proyecto">
+                        <h3>MoeAtrapa!</h3>
+                        <p class="textoProyecto">13 de septiembre de 2020</p>
+                        <p class="textoProyecto">Juego 2D casual. Ayuda a Moe a alcanzar su sueño en un divertido desafío.</p>
+                        <a href="https://fedev21.itch.io/moeatrapa" target="_blank">
+                            <img src="img/Proyecto6.png" alt="MoeAtrapa!">
+                        </a>
+                        <p>Disponible en PC</p>
+                        <p>Hecho en Unity</p>
+                    </article>
+                    <article class="proyecto">
+                        <h3>Fasty Cars</h3>
+                        <p class="textoProyecto">6 de septiembre de 2020</p>
+                        <p class="textoProyecto">Juego arcade 3D. Esquiva los autos a alta velocidad en la carretera.</p>
+                        <a href="https://fedev21.itch.io/fasty-cars" target="_blank">
+                            <img src="img/Proyecto5.png" alt="Fasty Cars">
+                        </a>
+                        <p>Disponible en PC</p>
+                        <p>Hecho en Unity</p>
+                    </article>
+                    <article class="proyecto">
+                        <h3>ShootOrDieXD</h3>
+                        <p class="textoProyecto">1 de agosto de 2020</p>
+                        <p class="textoProyecto">Juego 3D de acción frustrante y cómico. 2do lugar en la GBTK Jam #3.</p>
+                        <a href="https://fedev21.itch.io/shootordiexd" target="_blank">
+                            <img src="img/Proyecto4.png" alt="ShootOrDieXD">
+                        </a>
+                        <p>Disponible en PC</p>
+                        <p>Hecho en Godot</p>
+                    </article>
+                    <article class="proyecto">
+                        <h3>Dodgy Fruit</h3>
+                        <p class="textoProyecto">11 de julio de 2020</p>
+                        <p class="textoProyecto">Juego 2D arcade. Esquivas las hachas mientras tu salud decrece mientras te mueves.</p>
+                        <a href="https://fedev21.itch.io/dodgy-fruit" target="_blank">
+                            <img src="img/Proyecto3.png" alt="Dodgy Fruit">
+                        </a>
+                        <p>Disponible en PC</p>
+                        <p>Hecho en Godot</p>
+                    </article>
+                    <article class="proyecto">
+                        <h3>10SecondsToGo!</h3>
+                        <p class="textoProyecto">29 de junio de 2020</p>
+                        <p class="textoProyecto">Juego 2D arcade. Termina los niveles en menos de 10 segundos usando recursos a tu favor.</p>
+                        <a href="https://fedev21.itch.io/10secondstogo" target="_blank">
+                            <img src="img/Proyecto2.png" alt="10SecondsToGo!">
+                        </a>
+                        <p>Disponible en PC</p>
+                        <p>Hecho en Godot</p>
+                        <br><br>
+                    </article>
+                    <article class="proyecto">
+                        <h3>Spacerock</h3>
+                        <p class="textoProyecto">18 de junio de 2020</p>
+                        <p class="textoProyecto">Juego 2D arcade. Esquiva las rocas aproximandose en este Infinity Runner con dos modos de juego.</p>
+                        <a href="https://fedev21.itch.io/spacerock" target="_blank">
+                            <img src="img/Proyecto1.png" alt="Spacerock">
+                        </a>
+                        <p>Disponible en PC</p>
+                        <p>Hecho en Godot</p>
+                    </article>
+                </div>
+            </section>
+            <!--Esta es la sección de contacto, formulario para ingresar datos-->
+            <section id="contacto">  
+                <h1>CONTACTO</h1>
+                <h2>FORMULARIO</h2>
+                <form id="formulario">
+                    <label for="nombre">Nombre:</label><br><br>
+                    <input class="entradaForm" id="nombre" type="text" name="nombre"><br><br>
+                    <label for="email">Email:</label><br><br>
+                    <!--input class="entradaForm" type="email" name="email" placeholder = "hola@correo.com" required pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{1,}$"><br><br-->
+                    <input class="entradaForm" id="email" type="email" name="email" placeholder = "hola@correo.com"><br><br>
+                    <label for="mensaje">Mensaje:</label><br><br>
+                    <textarea class="entradaForm" id="mensaje" name="mensaje"></textarea><br><br>
+                    <input id="botonSubirForm" type="submit" value="Enviar"><br><br>
+                </form>
+                <h2>REDES SOCIALES</h2>
+                <ul id="redesSociales">
+                    <li><a href="https://x.com/fedev21" target="_blank"><img src="img/X.png" alt="X"></a></li>
+                    <li><a href="https://www.linkedin.com/in/federico-salinas-268063252/" target="_blank"><img src="img/LinkedIn.png" alt="LinkedIn"></a></li>
+                </ul>
+            </section>
+            <!--Esta es la sección de referencias, muestro testimonios
+            <section id="referencias">
+                <h1>REFERENCIAS</h1>
+                <div id="referencias-contenedor">
+                    <blockquote>
+                        <p>""</p>
+                        <cite></cite>
+                    </blockquote>
+                    <blockquote>
+                        <p>""</p>
+                        <cite></cite>
+                    </blockquote>
+                    <blockquote>
+                        <p>""</p>
+                        <cite></cite>
+                    </blockquote>
+                </div>
+            </section>-->
+        </main>
+        <!--Acá va el pie de página, normalmente se pone el aviso de copyright y el año actual-->
+        <footer>
+            <p id="fechaActual"></p>
+            <p>&copy; 2026 Federico Salinas</p>
+        </footer>
+    </body>
+
+</head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
