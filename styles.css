@@ -281,25 +281,18 @@ body.light-theme nav a
 
 body.light-theme nav a:hover 
 {
-    color: dodgerblue;
-}
-
-body.light-theme #sobremi img 
-{
-    border-color: gray;
-    
+    color: #FF00CC;
 }
 
 body.light-theme #botonTema 
 {
-    background-color: rgb(70, 70, 70);
+    background-color: rgb(100, 100, 100);
     border-color: gray;
-    color: white;
 }
 
 body.light-theme #botonTema:hover 
 {
-    border-color: dodgerblue;
+    border-color: #FF00CC;
 }
 
 body.light-theme section, body.light-theme footer 
@@ -316,7 +309,7 @@ body.light-theme #proyectos-contenedor article
 body.light-theme #proyectos-contenedor article:hover 
 {
     background-color: rgb(210, 210, 210);
-    border-color: dodgerblue;
+    border-color: #FF00CC;
 }
 
 body.light-theme #proyectos-contenedor article img 
@@ -326,18 +319,18 @@ body.light-theme #proyectos-contenedor article img
 
 body.light-theme #proyectos-contenedor article img:hover 
 {
-    border-color: dodgerblue;
+    border-color: #FF00CC;
 }
 
-body.light-theme #referencias-contenedor blockquote 
+/*body.light-theme #referencias-contenedor blockquote 
 {
     background-color: rgb(220, 220, 220);
     border-color: gray;
-}
+}*/
 
 body.light-theme #botonVolverArriba 
 {
-    background-color: #c00;
+    background-color: #FF00CC;
     border-color: gray;
 }
 
@@ -348,7 +341,7 @@ body.light-theme .entradaForm {
 }
 
 body.light-theme .entradaForm:focus {
-    border-color: dodgerblue;
+    border-color: #FF00CC;
 }
 
 body.light-theme #botonSubirForm {
@@ -358,5 +351,5 @@ body.light-theme #botonSubirForm {
 
 body.light-theme #botonSubirForm:hover {
     background-color: rgb(90, 90, 90);
-    border-color: dodgerblue;
+    border-color: #FF00CC;
 }
