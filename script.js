@@ -24,8 +24,8 @@ document.addEventListener("DOMContentLoaded", function ()
   fotoPerfil = document.getElementById("fotoPerfil");
   botonIdioma = document.getElementById("botonIdioma");
 
-  /*CargarDatosFormulario(); //* CARGO LOS DATOS DEL FORMULARIO DESDE LOCALSTORAGE SI EXISTEN
-  OcultarTextoProyectos() //* OCULTO LOS TEXTOS DE LOS PROYECTOS HASTA QUE SE HAGA CLICK EN ELLOS */
+  //CargarDatosFormulario(); //* CARGO LOS DATOS DEL FORMULARIO DESDE LOCALSTORAGE SI EXISTEN
+  OcultarTextoProyectos() //* OCULTO LOS TEXTOS DE LOS PROYECTOS HASTA QUE SE HAGA CLICK EN ELLOS
   MostrarBotonScroll(); //* AL RECARGAR LA PÁGINA, CHEQUEO SI HAY QUE MOSTRAR EL BOTÓN DE SCROLL
 
   //*LE ASIGNO LA FECHA ACTUAL AL FOOTER
