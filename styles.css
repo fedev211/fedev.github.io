@@ -179,7 +179,7 @@ section, footer
     height: 34.3rem;
     max-height: 100%;
     margin: 0.625rem;
-    border: 0.1875rem dashed white;
+    border: 0.16rem solid white;
     border-radius: 0.625rem;
     padding: 0.3rem;
     background-color: rgb(54, 54, 54);
@@ -202,7 +202,7 @@ section, footer
     width: 95%;
     height: 50%;
     border-radius: 5%;
-    border: 0.1875rem dashed white;
+    border: 0.16rem solid white;
     object-fit: cover;
     
     
