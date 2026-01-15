@@ -2,16 +2,16 @@
 {
     width: 8.75rem;
     height: 2.75rem;
-    display: block;
-    position: fixed;
     z-index: 1001;
-    top: 0.5rem;
-    left: 1rem;
+    
 }
 
 nav 
 {
-    background-color:dimgray;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: dimgray;
     position: fixed;
     top: 0;
     left: 0;
@@ -19,8 +19,14 @@ nav
     z-index: 1000;
     border: 0.1875rem solid white;
     border-radius: 0.55rem;
-    
+    padding: 0.5rem 2rem;
 }
+
+#bloqueNavIzq {
+    display: flex;
+    align-items: center;
+}
+
 nav a
 {
     color: white;
@@ -31,16 +37,23 @@ nav a:hover
     color: #00FF24;
 }
 
-nav ul 
-{
+#bloqueNavCentro {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 6rem;
-    padding: 0;
+    gap: 2rem;
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
+#bloqueNavDer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+}
 
 #botonTema
 {
@@ -49,13 +62,8 @@ nav ul
     border-radius: 0.625rem;
     cursor: pointer;
     font-size: 1rem;
-
-    
-    display: block;
-    position: fixed;
     z-index: 1001;
-    top: 1rem;
-    left: 111rem;
+    
 }
 #botonTema:hover
 {
@@ -71,12 +79,7 @@ nav ul
     font-family: inherit;
     font-size: 1rem;
     color: white;
-
-    display: block;
-    position: fixed;
     z-index: 1001;
-    top: 1rem;
-    left: 114.5rem;
 }
 #botonIdioma:hover
 {
@@ -115,16 +118,6 @@ nav ul
 #sobremi h4
 {
     text-shadow: 0.1rem 0.1rem 0rem black;
-}
-
-#sobremi ul
-{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 0;
-    
 }
 
 #sobremi .foto-wrapper {

@@ -15,16 +15,20 @@
     <body>  
         <header>
             <!--Acá va la cabecera, normalmente el menú de navegación-->
-            <img src="img/logoFedev.png" id="logoFedev" alt="logoFedev">
+            
             <nav>
-                <ul>
-                    <li><a href="#sobremi" id="sobreMiTitulo">ABOUT ME</a></li>
-                    <li><a href="#proyectos" class="proyectosTitulo">PROJECTS</a></li>
-                    <li><a href="#contacto" class="contactoTitulo">CONTACT</a></li>
-                    <!--<li><a href="#referencias">REFERENCIAS</a></li>-->
-                </ul>
+              <div id="bloqueNavIzq">
+                <img src="img/logoFedev.png" id="logoFedev" alt="logoFedev">
+              </div>
+              <ul id="bloqueNavCentro">
+                <li><a href="#sobremi" id="sobreMiTitulo">ABOUT ME</a></li>
+                <li><a href="#proyectos" class="proyectosTitulo">PROJECTS</a></li>
+                <li><a href="#contacto" class="contactoTitulo">CONTACT</a></li>
+              </ul>
+              <div id="bloqueNavDer">
                 <button id="botonTema">💡</button>
                 <button id="botonIdioma">ESP</button>
+              </div>
             </nav>
         </header>
 
@@ -33,7 +37,7 @@
             
             <!--Esta es la sección de inicio, doy breve presentación.-->
             <section id="sobremi">
-                <br><br><br><br>
+                <br><br><br><br><br><br>
                 <h1 id="bienvenida">Welcome to the portfolio of:</h1> 
                 <div class="foto-wrapper">
                     <img src="img/FotoPerfil.jpeg" alt="Foto de perfil" id="fotoPerfil">
